@@ -1,0 +1,17 @@
+<body id= "body_style">
+<main class= "main_new">
+<section class= "section_new">
+<div class="text_new">
+<h2>Crear Nueva Area</h2>
+</div>
+<div class="div_new">
+<%= simple_form_for @area do |f| %>
+  <%= f.input :codigo_area %>
+  <br>
+  <%= f.input :nombre_area %>
+  <br >
+  <%= f.button :submit %>
+<% end %>
+</div>
+</section>
+</body>

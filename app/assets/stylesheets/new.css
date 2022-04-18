@@ -1,0 +1,16 @@
+.main_new{
+    /*border: 1px solid red;*/  
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_new{
+    border: 1px solid green;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border: white 8px outset;
+    background-color: white;
+}
+

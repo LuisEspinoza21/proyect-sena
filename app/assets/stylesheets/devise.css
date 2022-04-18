@@ -1,0 +1,84 @@
+.inicio{
+    background-image: linear-gradient(rgba(0, 0, 0, .20) 0%, rgba(0,0,0,.30) 100%), url("https://i.ytimg.com/vi/n_TaJ-zf0aU/maxresdefault.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    height: 450px;
+    width: 100%;
+  
+}
+
+#section1{
+    display: flex;
+    justify-content: center;
+    /* background-color: whitesmoke; */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* filter: brightness(0.9); */
+    /*border: solid 1px black;*/
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+#article1{
+    text-align: center;
+    /*border: solid 1px green;*/
+    height: 300px;
+    width: 380px;
+}
+
+aside{
+    background-color: whitesmoke;
+    border: solid 1px black;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#logo{
+    /*border: 1px solid green;*/
+    width: 250px;
+    height: 180px;
+    border-radius: 50px;
+}
+
+#imagen-logo{
+    /*border: 1px solid red;*/
+    width: 220px;
+    height: 180px;
+   
+}
+
+#nombre-empresa{
+    color: rgb(255, 72, 0)
+}
+
+footer{
+    background-color: #DACDCD;
+    height: 60px;
+}
+
+#info-footer{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+#titulo1{
+    border: solid 1px black;
+    height: 100px;
+}
+input{
+    height: 22px;
+}
+/*.main_devise{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}*/

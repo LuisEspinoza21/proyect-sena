@@ -1,0 +1,27 @@
+.regist{
+    background-image: linear-gradient(rgba(0, 0, 0, .20) 0%, rgba(0,0,0,.30) 100%), url("https://www.elestudiante.com.co/wp-content/uploads/2020/02/sena-aprendizaje-1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    height: 450px;
+    width: 100%;
+}
+#section2{
+    display: flex;
+    justify-content: center;
+    /* background-color: whitesmoke; */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* filter: brightness(0.9); */
+    /*border: solid 1px black;*/
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+#article2{
+    /*border: 1px solid blue;*/
+    width: 400px;
+    text-align: center;
+}

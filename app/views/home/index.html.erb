@@ -1,0 +1,37 @@
+
+
+<body id= "body_style">
+    <nav class= "nav_index">
+      <img src="https://lostramites.com.co/wp-content/uploads/logo-sena-Naranja-300x300.jpg" id="Index_Logo">
+        <section id="Index_Salir">
+            <div id="Texto_Salir">
+                <a id="cerrar_sesion" href="#"><%= link_to "Salir", destroy_user_session_path, :method => :detele%></a>
+            </div>
+        </section>
+    </nav>
+
+    <main class="main_index">
+        <section class="Container_Lista">
+            <div id="Titulo_Menu">
+                <h2 id="h2_index">Titulo</h2>
+            </div>
+            <div id="Menu_index">
+                <ul class="Home_Listas">
+                    <li class="Lista1"><%= link_to "Areas", areas_index_path, :method => :get %></li>
+                   
+                    
+                </ul>
+            </div>
+            
+        </section>
+
+        <section id="Index_Bienvenida">
+            <h2>Bienvenidos</h2>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div id="info-footer">Version 1.0.0</div>
+    </footer>
+</body>

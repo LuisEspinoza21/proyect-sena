@@ -1,0 +1,155 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+} */
+
+#body_style{
+    background-image: linear-gradient(rgba(0, 0, 0, .20) 0%, rgba(0,0,0,.30) 100%), url("https://www.grupogjr.com/wp-content/uploads/2020/04/que-cursos-del-sena-hay.jpg");
+}
+.nav_index{
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    border-radius: 17px;
+}
+
+#Index_Logo{
+    border-radius: 5px;
+    /*border: 1px solid green;*/
+    margin-top: auto;
+    width: 60px;
+    
+}
+.Lista1Area{
+    text-decoration: none;
+    list-style: none;
+}
+
+#Index_Salir{
+   
+    text-align: center;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding-right:40px;
+    background-color:orangered;
+    border-color: orangered;
+    border-width: 3px;
+    border-style: solid;
+    width: 30px;
+    border-radius: 20%;
+
+}
+.cerrar_session{
+    text-decoration: none;
+    color: white;
+}
+.n_area{
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    color: black;
+    border: 2px solid orangered;
+}
+.boton_volver{
+    text-decoration: none;
+    background-color: white; 
+    color: black; 
+    border: 2px solid white;
+    
+}
+.boton_volver:hover{
+    background-color: orangered;
+    color: white;
+    
+}
+
+#Texto_Salir{
+    padding-top: 0%;
+    /*border: 1px solid red;*/
+    /*background-color: red;*/
+    width: 48px;
+    height: 30px;
+
+}
+
+.main_index{
+    
+    display: flex;
+    justify-content: start;
+    height: 450px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /*border: 1px solid #fa0707;*/
+}
+
+.Container_Lista{
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: white 8px outset;
+    width: 316px;
+    height: 350px;
+    background-color: #ffffff;
+}
+
+
+#Titulo_Menu{
+    border: orangered 8px outset;
+    height: 60px;
+    width: 300px;
+    text-align: center; 
+    background-color: orangered;
+}
+.h2_index{
+margin-top: 4px;
+text-align: center;
+}
+.Lista1{
+border: solid 1px rebeccapurple;
+margin-top: 30px;
+text-align: center;
+margin-right: 50px;
+list-style: none;
+background-color: #ffffff;
+}
+
+
+#Index_Bienvenida{
+    border: rgb(255, 255, 255) 8px outset;
+    height: 350px;
+    width: 860px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+footer{
+    border: 2px solid #f8dead;
+    background: rgb(255, 241, 212);
+    /*color: rgb(248, 162, 2);*/
+    font-weight: bold;
+    height: 60px;
+    
+}
+
+#info-footer{
+    padding-top: 20px;
+    text-align: center;
+}
+#boton_volver{
+    text-align: center;
+    margin-top: 40%;
+    
+ }

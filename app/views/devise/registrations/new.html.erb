@@ -1,0 +1,46 @@
+<head> <%= stylesheet_link_tag "registrar" %></head>
+<body>
+<main class= "regist">
+<section id=section2>
+  <article id= article2>
+
+  <h2>Registrarse</h2>
+
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <%= render "devise/shared/error_messages", resource: resource %>
+
+    <div class="field"> 
+      <%= f.label :Correo_Electronico %><br />
+      <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    </div>
+    <br>
+
+    <div class="field">
+      <%= f.label :Contraseña %>
+      <% if @minimum_password_length %>
+      <em>(<%= @minimum_password_length %> caracteres min)</em>
+      <% end %><br />
+      <%= f.password_field :password, autocomplete: "new-password" %>
+    </div>
+    <br>
+    <div class="field">
+      <%= f.label :Confirmar_Contraseña %><br />
+      <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+      
+    </div>
+    <br>
+    <div class="actions">
+      <%= f.submit "Registrar" %>
+    </div>
+  <% end %>
+  <br>
+  <%= render "devise/shared/links" %>
+
+  </article>
+</section>
+
+</main>
+    <footer>
+        <div id="info-footer">Version 1.0.0</div>
+    </footer>
+</body>
